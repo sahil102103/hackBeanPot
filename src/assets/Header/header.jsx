@@ -1,8 +1,9 @@
-import './header.css';
+import React from 'react';
+import {Text, View, StyleSheet} from 'react-native';
 
 export default function Header() {
     return (
-        <div >
+        <View >
             <nav className='header'>
             <h2 className='websiteName'> Discount Bytes</h2>
 
@@ -11,6 +12,6 @@ export default function Header() {
                 <li className='listItem'><a href=''>Signup</a></li>
             </ul>
             </nav>
-        </div>
+        </View>
     );
 }

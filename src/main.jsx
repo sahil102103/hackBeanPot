@@ -1,5 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import {Text, View, StyleSheet} from 'react-native';
+
 // import App from './App.jsx'
 // import './index.css'
 
@@ -8,8 +10,8 @@ import Header from './assets/Header/header.js'
 import Footer from './assets/Footer/footer.js'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <View>
     <Header />
     <Footer />
-  </React.StrictMode>,
+  </View>,
 )
